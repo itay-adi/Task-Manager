@@ -39,8 +39,8 @@ A RESTful API built with **Node.js**, **TypeScript**, and **Express** to manage 
 
 3. Set up environment variables:
    - Create a .env file in the root directory and add the following:
-   -- JWT_SECRET=your_jwt_secret_key
-   -- MONGODB_URI=your_mongodb_connection_string
+   * JWT_SECRET=your_jwt_secret_key
+   * MONGODB_URI=your_mongodb_connection_string
     Replace your_jwt_secret_key and your_mongodb_connection_string with your actual credentials.
 
 4. Build the project:
