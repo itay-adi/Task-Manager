@@ -39,34 +39,34 @@ A RESTful API built with **Node.js**, **TypeScript**, and **Express** to manage 
 
 3. Set up environment variables:
    - Create a .env file in the root directory and add the following:
-   **JWT_SECRET=your_jwt_secret_key
-   **MONGODB_URI=your_mongodb_connection_string
+   -- JWT_SECRET=your_jwt_secret_key
+   -- MONGODB_URI=your_mongodb_connection_string
     Replace your_jwt_secret_key and your_mongodb_connection_string with your actual credentials.
 
 4. Build the project:
-   *npx tsc
+   - npx tsc
 
 5. Start the server:
-   *npm start
+   - npm start
 
 6. The server will run on http://localhost:8080.
 
 ## API Endpoints
 1. Authentication:
-   *POST /auth/signup: Register a new user.
-   *POST /auth/login: Authenticate a user and receive a JWT.
+   - POST /auth/signup: Register a new user.
+   - POST /auth/login: Authenticate a user and receive a JWT.
 
 2. Todo Lists:
-   *POST /list: Create a new todo list.
-   *GET /list/:id: Retrieve a specific todo list.
-   *PUT /list/:id: Update a todo list.
-   *DELETE /list/:id: Delete a todo list.
+   - POST /list: Create a new todo list.
+   - GET /list/:id: Retrieve a specific todo list.
+   - PUT /list/:id: Update a todo list.
+   - DELETE /list/:id: Delete a todo list.
 
 3. Todo Items:
-   *POST /item: Add a new todo item.
-   *GET /item/:id: Retrieve a specific todo item.
-   *PUT /item/:id: Update a todo item.
-   *DELETE /item/:id: Delete a todo item.
+   - POST /item: Add a new todo item.
+   - GET /item/:id: Retrieve a specific todo item.
+   - PUT /item/:id: Update a todo item.
+   - DELETE /item/:id: Delete a todo item.
 
 ## Scripts
 1. npm start: Starts the server using nodemon and runs the compiled JavaScript from the dist directory.
