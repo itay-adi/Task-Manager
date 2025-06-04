@@ -4,13 +4,14 @@ A RESTful API built with **Node.js**, **TypeScript**, and **Express** to manage 
 
 ## Features
 
-- ✅ User authentication (signup/login) using JWT
-- ✅ CRUD operations for to-do lists and tasks
-- ✅ Pagination and sorting (ascending/descending)
+- ✅ User authentication (signup/login) using JWT.
+- ✅ CRUD operations for to-do lists and tasks.
+- ✅ Pagination and sorting (ascending/descending).
 - ✅ Input Validation: Request bodies and parameters are validated using custom middleware and express-validator.
-- ✅ Validation using `express-validator`
-- ✅ MongoDB via Mongoose ODM
-- ✅ Modular structure with clear separation of concerns
+- ✅ Validation using `express-validator`.
+- ✅ MongoDB via Mongoose ODM.
+- ✅ Modular structure with clear separation of concerns.
+- ✅ TypeScript Support: Strongly typed codebase for better maintainability.
 
 ## Tech Stack
 
